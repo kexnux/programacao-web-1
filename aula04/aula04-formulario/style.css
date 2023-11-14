@@ -1,0 +1,22 @@
+/* Folha de estilo da página de formulário */
+
+body {
+    background-color: rgb(52, 52, 52);
+    padding: 30px;
+    background-image: url("imagem/1174672.jpg");
+}
+
+.card {
+    box-shadow: 10px 10px 10px rgb(39, 114, 49);
+}
+
+.card-header {
+    background-color:rgb(50, 110, 60);
+    color: rgb(252, 255, 254);
+}
+
+.card-body {
+    background-color: rgb(201, 255, 201);
+    color: rgb(23, 82, 31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

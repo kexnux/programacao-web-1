@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas</title>
+    
+    <style>
+        table {
+            color: rgb(0, 0, 0);
+
+        }
+        
+        td, th {
+            border: 2px;
+            border-style: solid;
+            border-color: rgb(80, 77, 77);
+            padding: 10px;
+
+        }
+
+        #cabecario {
+            height: 50px;
+            width: 80px;
+        }
+
+        #cor1 {
+            background-color: rgb(89, 99, 99);
+            
+
+        }
+
+        tfoot {
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <table>
+        
+        <thead>
+            <tr>
+                <th id="cabecario" colspan="3">Linguagens básicas da web</th>
+            </tr>
+            <tr>
+                <th id="cor1" colspan="2">Conteúdo/Aparencia:</th>
+                <th id="cor1">Interatividade:</th>
+               
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+               
+            </tr>
+            
+             </thead>
+        </tbody>
+        <tfoot>
+            <td id="cor1" colspan="3">Fonte: wikipedia.org</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

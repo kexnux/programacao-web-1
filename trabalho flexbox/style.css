@@ -1,0 +1,170 @@
+
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+.div-1 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: #e6e6dd;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    /*background-color: #ff6c6c;*/
+    left: 0;
+    top: 0;
+    position: absolute;
+    /* opacity: 0.5; */
+}
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: #e6e6dd;
+    position: relative;
+    left: 0;
+    top: 0; 
+}
+
+.conteudo {
+    margin: auto;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 10%;
+    height: 100%;
+    background-color: #e6e6dd;
+    left: 0;
+    top: 0;
+    position: relative;
+
+}
+
+.img-logo {
+    width: auto;
+    height: auto;
+    max-height: 240px;
+    max-width: 140px;
+}
+
+.busca {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+a:hover {
+    font-size: 25px;
+   
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+    background: url("imagem/WhatsApp\ Image\ 2023-11-01\ at\ 20.38.08.png");
+    /*background-color: gray;*/
+
+}
+
+.highlight-text {
+    font-size: 75px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    /*background-color: aquamarine;*/
+}
+
+.div-3-left {
+    width: 650px;
+    height: 350px;
+    padding-left: 10px;
+    /*background-color: brown;*/
+}
+
+.highlight-img {
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.m-link {
+    color: darkolivegreen;
+}
+
+.div-3-right {
+    width: 650px;
+    height: 350px;
+    /*background-color: blue;*/
+}
+
+.others {
+    padding: 10px;
+    float: left;
+}
+
+.img-others {
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    /*background-color: chocolate;*/
+    
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-image:
+    linear-gradient(#23691d, #5cd36c);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: white;
+}

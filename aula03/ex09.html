@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário de Formatação HTML</title>
+    <style>
+       abbr {
+        background-color: black;
+        color: rgb(253, 253, 253);        
+       }
+       
+       
+        q {
+            color: brown;
+        }
+
+        blockquote {
+            font-size: 16px;
+            font-size: italic;
+        }
+
+        body {
+            background-color: rgb(128, 177, 125);
+        }
+        img {
+            float: left;
+        }
+
+        h1{ 
+            padding: 30px;
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <img src="imagens/dicionario.png">
+    <h1>Dicionário de Formatação HTML</h1>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="#negrito">Negrito</a></li>
+            <li><a href="#italico">Itálico</a></li>
+            <li><a href="#sublinhado">Sublinhado</a></li>
+            <li><a href="#tachado">Tachado</a></li>
+            <li><a href="#marcado">Marcado</a></li>
+            <li><a href="#subscrito">Subscrito</a></li>
+            <li><a href="#sobrescrito">Sobrescrito</a></li>
+            <li><a href="#quebra de linha">Quebra de linha</a></li>
+            <li><a href="#abreviacao">Abreviação</a></li>
+            <li><a href="#citacao">Citação</a></li>
+            <li><a href="#citbloco">Citbloco</a></li>
+            <li><a href="#endereco">Endereço</a></li>
+            <li><a href="#barescalar">Barra esclar</a></li>
+            <li><a href="#barprogresso">Barra de progresso</a></li>
+            
+        </ul>
+    </nav>
+    <hr>
+
+        <h3 id="negrito">Negrito</h3>
+        <p>-Para deixar um texto em <strong>negrito</strong> usamos a tag <code>&lt;strong&gt;</code></p>
+
+        <h3 id="italico">Itálico</h3>
+        <P>-Para deixar um texto em <em>Itálico</em> usamos a tag <code>&lt;em&gt;</code></P>
+
+        <h3 id="sublinhado">Sublinhado</h3>
+        <p>-Para deixarmos um texto <ins>sublinhado</ins> usamos a tag <code>&lt;ins&gt;</code></p>
+
+        <h3 id="tachado">Tachado</h3>
+        <p>-Para deixarmos um texto em <del>tachado</del> usamos da tag <code>&lt;del&gt;</code></p>
+
+        <h3 id="marcado">Marcado</h3>
+        <p>-Para deixarmos um texto <mark>marcado</mark> usamos a tag <code>&lt;mark&gt;</code></p>
+
+        <h3 id="subscrito">Subscrito</h3>
+        <p>-Para exibir um texto em formato <sub>subscrito</sub> usamos a tag <code>&lt;sub&gt;</code></p>
+
+        <h3 id="sobrescrito">Sobrescrito</h3>
+        <p>-Para exibir um texto em formato <sup>sobrescrito</sup> usamos a tag <code>&lt;sup&gt;</code></p>
+
+        <h3 id="quebra de linha">Quebra de linha</h3>
+        <p><br>-Para quebrarmos uma linha</br>, usamos a tag <code>&lt;br&gt;</code></p>
+
+        <h3 id="abreviacao">Abreviação</h3>
+        <p>-Para criarmods uma abreviação, por exemplo, <abbr
+        title="Centro Paula Souza"> CPS</abbr> , usamos a tag abbr <code>abbr</code> e atributo <code>&lttitlle&gt</code></p>
+
+        <h3 id="citacao">Citação</h3>
+        <p>-Para indicarmos uma <q>citação</q>, usamos a tag <code>&lt;q&gt;</code></p>
+        <p><q>Prefiro morrer do que perder a vida</q> - Seu Madruga</p>
+
+        <h3 id="citbloco">Citação em bloco</h3>
+        <p>-Para criarmos uma citação em bloco, por exemplo:</p>
+
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem ipsum ipsam error nesciunt ab accusamus, voluptatum sint dolores doloribus illo eius nisi, aliquam neque et soluta sit rem. Omnis?</blockquote>
+        
+        <P>Usamoa a atg <code>&lt;blockquote&gt;</code></P>
+
+        <h3 id="endereco">Endereço</h3>
+        <P>-Para indicarmos um endereço, por exemplo:</P>
+            <address>
+                Escrito por Richard Moura<br>
+                E-mail: <a href="richardmoura58@gmail.com">richardmoura58@gmail.com<br></a>
+                Telefone: <a href="tel:+5513997754597">(13)99775-4597</a><br>
+                Endereço: Rua 1, bairro 2<br>
+                Brasil
+            </address>
+
+            <p>Usamos a tag <code>&lt;address&gt;</code></p>
+
+            <h3 id="barescalar">Barra esclar</h3>
+            <p>-Para criarmos uma barra escalar, por exemplo:</p>
+
+            Uso do disco local C: <meter value="2" min="0" max="10">2 de 10</meter><br>
+            Uso do disco local D: <meter value="0.6">60%</meter>   
+            <p>Usamos a tag <code>&lt;meter&gt;</code> e os atributos: value, min e max.</p> 
+            
+            <h3 id="barprogresso">Barra de progresso</h3>
+            <p>-Para criarmos uma barra de progresso, por exemplo:</p>
+            Baixando: <progress value="70" max="100"> 32% </progress> 
+            <p>Usamos a tag <code>&lt;progress&gt;</code> e os atributos: value e max.</p>
+        
+        </body>
+</html>
